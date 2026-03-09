@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenhador de Triângulos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Triângulo de Asteriscos</h1>
+        <p>Quantas linhas o triângulo deve ter?</p>
+        
+        <div class="entrada">
+            <input type="number" id="qtdLinhas" placeholder="Ex: 5" min="1">
+            <button onclick="desenharTriangulo()">Desenhar</button>
+        </div>
+
+        <pre id="displayTriangulo"></pre>
+        <p><small>(Veja também o resultado no Console: F12)</small></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

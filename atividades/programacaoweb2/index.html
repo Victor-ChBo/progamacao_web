@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedra, Papel ou Tesoura</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="game-container">
+        <h1>Jokenpô</h1>
+        <div class="placar">
+            <span>Você: <strong id="ponto-usuario">0</strong></span>
+            <span>Robô: <strong id="ponto-computador">0</strong></span>
+        </div>
+
+        <div class="escolhas">
+            <button class="botao-escolha" id="pedra">✊<br>Pedra</button>
+            <button class="botao-escolha" id="papel">✋<br>Papel</button>
+            <button class="botao-escolha" id="tesoura">✌️<br>Tesoura</button>
+        </div>
+
+        <div id="resultado-final">
+            <p id="mensagem-resultado">Escolha uma opção para começar!</p>
+            <p id="detalhe-escolha"></p>
+        </div>
+    </div>
+    <script src="scrypt.js"></script>
+</body>
+</html>

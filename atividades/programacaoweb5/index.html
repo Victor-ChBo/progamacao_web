@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soma da Série</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🔢 Calculadora de Série</h1>
+        <p>Quantos termos você deseja somar?</p>
+        
+        <div class="input-group">
+            <input type="number" id="numTermos" placeholder="Ex: 5" min="1">
+            <button onclick="calcularSerie()">Calcular</button>
+        </div>
+
+        <div id="resultado-area" class="hidden">
+            <p id="serie-texto"></p>
+            <h2 id="soma-total"></h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
