@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM: Página Interativa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>DOM: Página Interativa com JavaScript</h1>
+
+    <div class="section">
+        <button id="btnIncrementar">Incrementar</button>
+        <button id="btnDecrementar">Decrementar</button>
+        <span id="valorContador">0</span>
+    </div>
+
+    <div class="section">
+        <input type="text" id="campoTexto" placeholder="Digite algo e aperte Enter...">
+        <p><span id="numCaracteres">0</span> caracteres (sem espaços)</p>
+        <div id="containerParagrafos"></div>
+    </div>
+
+    <div class="section">
+        <label for="tipoLista">Escolha o tipo de lista:</label>
+        <select id="tipoLista">
+            <option value="ul">Lista Não Ordenada</option>
+            <option value="ol">Lista Ordenada</option>
+        </select>
+        <button id="btnAdicionarLista">Adicionar Lista</button>
+        <div id="containerListas"></div>
+    </div>
+
+    <hr>
+    <button id="btnReset">Resetar Tudo</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
